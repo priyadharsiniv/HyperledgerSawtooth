@@ -10,7 +10,7 @@ const context = createContext('secp256k1')
 const privateKey = context.newRandomPrivateKey()
 const signer = new CryptoFactory(context).newSigner(privateKey)
 
-const TP_FAMILY = "DLB_DOCUMENT";
+const TP_FAMILY = "DOCUMENT";
 const constants = getConstants(TP_FAMILY);
 const BASE_IP = constants.BASE_IP;
 const TP_NAMESPACE = constants.TP_NAMESPACE;
