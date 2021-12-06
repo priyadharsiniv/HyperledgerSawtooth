@@ -1,6 +1,6 @@
 const request = require('request');
 
-const API_ENDPOINT = "https://dlb.estate-registry.ca/digital-lock-box/public/api/v1/";
+const API_ENDPOINT = "http://localhost/api/v1/";
 
 /**
  * 
