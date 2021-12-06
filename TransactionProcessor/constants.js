@@ -5,7 +5,7 @@ const { _hash } = require("../lib");
 const PORTS = ["4004"];
 
 const TP_FAMILIES = {
-    DLB_DOCUMENT : "DLB_DOCUMENT"
+    DOCUMENT : "DOCUMENT"
 };
 
 const getConstants = (TP_FAMILY) => { 
@@ -15,7 +15,7 @@ const getConstants = (TP_FAMILY) => {
 
     switch (TP_FAMILY) { 
         
-        case TP_FAMILIES.DLB_DOCUMENT:
+        case TP_FAMILIES.DOCUMENT:
                 constants.BASE_IP = 'localhost';
                 return constants;
             break;
